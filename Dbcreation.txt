@@ -1,0 +1,12 @@
+CREATE DATABASE digitalqc;
+digitalqc=# CREATE USER digitalqc WITH PASSWORD 'postgres';
+CREATE ROLE
+digitalqc=# ALTER ROLE digitalqc SET client_encoding TO 'utf8';
+ALTER ROLE
+digitalqc=# ALTER ROLE digitalqc SET default_transaction_isolation TO 'read committed';
+ALTER ROLE
+digitalqc=# ALTER ROLE digitalqc SET timezone TO 'Asia/Kolkata';
+ALTER ROLE
+digitalqc=# GRANT ALL PRIVILEGES ON DATABASE digitalqc TO digitalqc;
+GRANT
+digitalqc=#

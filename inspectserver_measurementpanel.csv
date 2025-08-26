@@ -1,0 +1,85 @@
+id|Description|Heading|IsMultiple|FormType|jsonfile
+1|Inspection Details for QC DAG|INSPECTION DETAILS FOR QC DAG|Single|Section0|crankdet
+2|INSPECTION OF CRANKCASE UPPER AND LOWER FITS|INSPECTION OF CRANKCASE UPPER AND LOWER FITS|Multiple|AsIs|crankinsp
+3|INSPECTION OF CRANKCASE RECOMMENDATION|RECOMMENDATION|Single|Section0|crankrec
+4|Onsite Inspection Data Sheet|JOB DETAILS|Single|Section0|jobdet
+5|Onsite Inspection Data Sheet -Observations|Observations|AddRow|AsIs|observations
+6|Motor Details|Motor Details|Single|Section0|motordet
+7|Open Inspection|Open Inspection|Single|Section1|openins
+8|Overhaul Assembly Inspection|Overhaul Assembly Inspection|Single|Section2|overhaulins
+9|Testing/Trials|Testing/trials|Multiple|AsIs|testing
+10|Inspection of Painting Jobs|INSPECTION OF PAINTING JOBS|Single|Single|painting
+11|Pump Measurement|Pump Measurement|Multiple|AsIs|mdpump
+12|Pump Physical Inspection|Pump Physical Inspection|Multiple|AsIs|mdpump1
+13|Pump - other tests and remarks|Pump - Other tests and remarks|Single|Section0|mdpump2
+14|Aft Gland Clearances|Aft Gland Clearances|Multiple|AsIs|aftgland
+16|IIR Performa - heading|Inspection Details|Single|Horizontal2Col|iirhead
+17|Final Remarks/Conclusion|Final Remarks|Single|Horizontal|finremark
+18|ICCP - Pre-Post Docking Checks|Step 1- Ship Details|Single|Horizontal2Col|iccp1
+19|ICCP - Pre-Post Docking Checks Step2|Step 2 Anode/RE Locations|Single|Vertical|iccp2
+20|ICCP Pre-post docking - ACU Off hull potential|Step 3a - ACU off hull potentials with external reference electrode|Multiple|Vertical|iccp3
+21|ICCP Pre-post docking - ACU ON hull potential|Step 3b - ACU ON hull potentials with external reference electrode|Multiple|Vertical|iccp4
+22|ICCP - Pre-Post Docking Checks Step4|ICCP reference electrode potential (ACU off position)|Single|Horizontal|iccp5
+23|ICCP - Pre-Post Docking Checks Step5|ICCP anode voltages w.r.t. hull (in V) ACU off position)|Single|Horizontal|iccp6
+24|ICCP - Pre-Post Docking Checks Step6|Step6 - Manual Operational Checks|Multiple|Vertical|iccp7
+25|ICCP - Pre-Post Docking Checks Step7|Step7a- Auto Operational Checks : RE1|AddRow|Vertical|iccp8
+26|ICCP - Pre-Post Docking Checks Step7b|Step7b- Auto Operational Checks : RE2|AddRow|Vertical|iccp9
+27|ICCP - Pre-Post Docking Checks Step8|Step8 - Continuity of fuses|Single|Horizontal|iccp10
+28|ICCP - Pre-Post Docking Checks Step 9|Final Remarks and Conclusion|Single|Horizontal|iccp11
+29|Dummy load check of ACU Panel of ICCP system|Step1  - Ship Details|Single|Horizontal2Col|acupanel1
+30|Dummy load check of ACU Panel of ICCP system- Step2|Step2  - Auto mode|AddRow|Vertical|acupanel2
+31|Dummy load check of ACU Panel of ICCP system- Step2b|Step2b  - Manual mode|AddRow|Vertical|acupanel3
+32|Inspection Note for offloaded jobs|JOB DETAILS - INote|Single|Horizontal2Col|inotejob
+33|Inspection Note for offloaded jobs- Details|Inote - Details|AddRow|Vertical|inotedet
+34|Inspection data sheet for Generator/Amplidyne/Convertor|Generator - Ship Details|Single|Horizontal2Col|genamp1
+35|Inspection data sheet for Generator/Amplidyne/Convertor - Step2 Motor|Step2 - Motor Tally Plate Details|Single|Horizontal|genamp2
+36|Inspection data sheet for Generator/Amplidyne/Convertor - Step2 Generator|Step2 - Generator/Convertor/Amplidyne Tally Plate Details|Single|Horizontal|genamp3
+37|Inspection data sheet for Generator/Amplidyne/Convertor - Step3 - Motor|Stage 1 -  Open for Motor/Generator/Convertor/Amplidyne|Single|Horizontal|genamp4
+38|Inspection data sheet for Generator/Amplidyne/Convertor - Stage 2|Stage 2 - Motor/Generator/Convertor/Amplidyne|Single|Horizontal|genamp5
+39|Inspection data sheet for Generator/Amplidyne/Convertor - Stage 2|Stage 3 - Motor/Generator/Convertor/Amplidyne|Single|Horizontal|genamp6
+40|Inspection data sheet for Generator/Amplidyne/Convertor - Stage 3b|Stage 3b - Motor/Generator/Convertor/Amplidyne|AddRow|Vertical|genamp7
+41|Inspection data sheet for Generator/Amplidyne/Convertor - Stage 4|Stage 4- Motor/Generator/Convertor/Amplidyne|Single|Horizontal|genamp8
+42|Inspection data sheet for Generator/Amplidyne/Convertor - Final|Stage 5- Motor/Generator/Convertor/Amplidyne|Single|Horizontal|genamp9
+43|Steel Renewal|Steel Renewal|Single|Horizontal|steelren
+44|Staging|Staging|Single|Horizontal|staging
+45|Diessel Transfer and Lightening pump|Diesel Transfer - Inspection Details|Single|Horizontal|dtrandet
+46|Diesel Transfer - Mesaurements|Diesel Transfer - Measurements|Multiple|Vertical|dtranmeas
+47|Generic Remarks - Engg|Generic Remarks - Engg|Single|Horizontal|genremengg
+48|FFO Transfer Pump|FFO Transfer Pump|Single|Horizontal|ffopumpdet
+49|FFO Transfer Pump-Measurement|FFO Transfer Pump-Measurement|Multiple|Vertical|ffopumpmea
+50|FOSP Pump|FOSP Pump|Single|Horizontal|fospumpdet
+51|FOSP Pump Measurements|FOSP Pump Measurements|Multiple|Vertical|fospummeas
+52|Fresh Water and Aquair Pump|Fresh Water and Aquair Pump|Single|Horizontal|frwatdet
+53|Fresh Water - Measurement|Fresh Water - Measurement|Multiple|Vertical|frwatmeas
+54|Aquair Pump - Measurement|Aquair Pump - Measurement|Multiple|Vertical|aquameas
+55|Examination of Lifting Machines, Ropes and lifting tackes|Examination of Lifting Machines, Ropes and Lifting Tackles|Single|Horizontal|liftmcexam
+56|Load test report of cranes|Load test report of cranes - Equipment Details|Single|Horizontal|liftmcdet
+57|Load test report of cranes - Testing 1|Load test report of cranes - Hoisting|Multiple|Vertical|liftmchoist
+58|Load test report of cranes - condition of hoist|Load test report of cranes - condition of hoist|Multiple|Vertical|liftmccond
+59|Load Test report of cranes - final remarks|Load test report of cranes - Final remarks|Single|Horizontal|lifmcfinal
+60|ICCP - Dry Dock Checks - Ship Details|ICCP - Dry Dock Check  Ship Details|Single|Horizontal|iccpdet
+61|ICCP - Dry Dock Checks - Anode Insulation Fwd|ICCP - Dry Dock Checks - Anode Insulation Fwd|Multiple|Vertical|iccphull2
+62|ICCP - Dry Dock Checks - Reference Electrode Fwd|ICCP - Dry Dock Checks - Reference Electrode Fwd|Multiple|Vertical|iccphull3
+63|ICCP - Dry Dock Checks - Anode Insulation Aft|ICCP - Dry Dock Checks - Anode Insulation Aft|Multiple|Vertical|iccphull4
+64|ICCP - Dry Dock Checks -Reference Electrode Aft|ICCP - Dry Dock Checks -Reference Electrode Aft|Multiple|Vertical|iccphull5
+65|ICCP Dry Dock Check Final Remarks|ICCP - Final Remarks|Single|Horizontal|iccphull6
+66|QC Checks - Inspection Details|QC Checks - Inspection Details|Single|Horizontal|qccheck0
+67|QC Checks - Section 1|QC Checks - Section 1|Single|Horizontal|qccheck1
+68|QC Checks - Section 2|QC Checks - Section 2|Multiple|Vertical|qccheck2
+69|QC Checks - Section 3|QC Checks - Section 3|Multiple|Vertical|qccheck3
+70|QC Checks - Section 4|QC Checks - Section 4|Multiple|Vertical|qccheck4
+71|QC Checks - Section 5|QC Checks - Section 5|Multiple|Vertical|qccheck5
+72|QC Checks - Section 6|QC Checks - Section 6|Multiple|Vertical|qccheck6
+73|QC Checks - Section 7|QC Checks - Section 7|Single|Horizontal|qccheck7
+74|Single Panel Horizontal|Single Panel Horizontal|Single|Horizontal|
+75|Single Panel Horizontal 2 col|Single Panel Horizontal 2 Col|Single|Horizontal2Col|
+76|Multiple Panel Vertical|Multiple Panel Vertical|Multiple|Vertical|
+77|AddRow Vertical|AddRow Vertical|AddRow|Vertical|None
+78|Digitalqc1|DigitalQC1|Multiple|Vertical|file
+79|Digitalqc2|DigitalQC2|AddRow|Horizontal2Col|file1
+80|Digitalqc3|DigitalQC3|Multiple|Vertical|file3
+81|Digitalqc4|efascsd|Single|Horizontal|jhgf
+82|Digitalqc4|DigitalQC4|Multiple|Vertical|filee
+83|Digitalqc5|DigitalQC5|Single|Horizontal|file12
+84|Digitalqc6|DigitalQC6|AddRow|Vertical|filee1
+85|Digitalqc7|DigitalQC7|Single|Horizontal|file226
